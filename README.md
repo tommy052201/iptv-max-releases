@@ -15,12 +15,26 @@ Vai su [Releases](../../releases/latest) per l'ultima versione:
 | `iptvmax-vega-aarch64.vpkg` | Vega OS (Fire TV Stick 4K Select) |
 | `iptvmax-vega-armv7.vpkg`, `iptvmax-vega-x86_64.vpkg` | altri modelli Vega OS |
 
-## Installazione
+## Installazione su Fire TV / Android TV con Downloader
 
-- **Fire TV / Android TV**: installa l'app *Downloader*, poi apri l'indirizzo dell'ultimo `iptvmax.apk`
-  (dalla pagina Releases). Gli aggiornamenti successivi arrivano dall'app, con un avviso.
-- **Windows**: esegui `IPTVMax.msi`. Serve VLC 64-bit installato. L'app si aggiorna da sola quando la chiudi.
-- **Vega OS**: vedi sotto.
+1. Installa l'app **Downloader** (AFTVnews) dall'Amazon Appstore (o dal Play Store su Android TV).
+2. Aprila e inserisci il codice:
+
+   ## `7180422`
+
+3. Conferma l'installazione. La prima volta Fire OS chiede di consentire
+   *Installa app sconosciute* per Downloader.
+
+Il codice scarica sempre l'ultima versione.
+
+## Link diretto
+
+https://github.com/tommy052201/iptv-max-releases/releases/latest/download/iptvmax.apk
+
+## Aggiornamenti
+
+- **Fire TV / Android TV**: l'app controlla da sola le nuove release e mostra un avviso per aggiornare.
+- **Windows**: esegui `IPTVMax.msi` (serve VLC 64-bit). L'app si aggiorna da sola quando la chiudi.
 
 ## Fire TV con Vega OS (es. Fire TV Stick 4K Select)
 
